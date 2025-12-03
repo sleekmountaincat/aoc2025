@@ -7,17 +7,17 @@ const map = fs
   .readFileSync("src/day3/input.txt")
   .toString()
   .split("\n")
-  .forEach(l=>{
+  .forEach(l => {
     let bank = l.split("").map(Number);
     let n = '';
 
-    for(let i = s-1; i >= 1; i--) {
-      const nextDigit = Math.max(...bank.slice(0,-i));
+    for (let i = s - 1; i >= 1; i--) {
+      const nextDigit = Math.max(...bank.slice(0, -i));
       n += nextDigit.toString()
-      bank = bank.slice(bank.indexOf(nextDigit)+1);
+      bank = bank.slice(bank.indexOf(nextDigit) + 1);
     }
 
-    cnt += +(n+Math.max(...bank).toString());
+    cnt += +(n + Math.max(...bank).toString());
   });
 
-  console.log(cnt)
+console.log(cnt)
