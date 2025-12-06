@@ -20,17 +20,3 @@ const lines = fs
   }
 
 console.log(cnt)
-
-// lines[0][0] 
-//   lines[len-1][0]
-// lines[1][0]
-//   lines[len -1][0]
-// lines[2][0]
-
-// +
-
-// lines[0][1] 
-//   lines[len -1][1]
-// lines[1][1]
-//   lines[len -1][1]
-// lines[2][1]
