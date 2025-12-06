@@ -15,7 +15,6 @@ const lines = fs
     for (let j = 0; j < len-1; j++) {
       p += j === len - 2 ? `${lines[j][i]}` : `${lines[j][i]} ${lines[len-1][i]} `
     }
-    console.log(p)
     cnt += eval(p);
   }
 
