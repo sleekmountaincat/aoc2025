@@ -20,6 +20,8 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "factors-of-n": "^1.0.0"
-  }
+    "factors-of-n": "^1.0.0",
+    "memoize": "^10.2.0"
+  },
+  "type": "module"
 }
