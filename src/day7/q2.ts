@@ -21,4 +21,4 @@ runBeam = memoize(runBeam, {
   cacheKey: (arguments_: number[]) => arguments_.join(',')
 });
 
-console.log(runBeam(0, map[0].indexOf('S'))+1);
+console.log(runBeam(0, map[0].indexOf('S')) + 1);
