@@ -1,11 +1,6 @@
 import fs from "fs";
 import { combinations } from 'combinatorial-generators';
 
-interface Point {
-  x: number;
-  y: number;
-}
-
 let max = 0;
 
 const points = fs
