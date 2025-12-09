@@ -10,7 +10,7 @@ const points = fs
   .map(l => l.split(",").map(Number));
 
 for (const [a, b] of combinations(points, 2)) {
-  const area = (Math.abs(a[0] - b[0])+1) * (Math.abs(a[1] - b[1])+1);  
+  const area = (Math.abs(a[0] - b[0]) + 1) * (Math.abs(a[1] - b[1]) + 1);
   if (area > max) max = area;
 }
 
