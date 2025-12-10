@@ -43,5 +43,5 @@ function hitButtons(target: string, buttons: string[]): number {
     }
   }
 
-  return -1;
+  throw new Error("well this isnt good");
 }
